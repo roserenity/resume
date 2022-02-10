@@ -1,0 +1,45 @@
+:root {
+--clr-violet-indigo: #42275a;
+--clr-eggplant: #734b6d;
+--clr-dark-charcoal: #333333;
+--clr-warm-yellow: #f2c94c;
+--clr-aquamarine: #78ffd6;
+--clr-pink-red: #d76d77;
+--tr-1: 0.5s all ease;
+}
+
+html {
+    scroll-behavior: smooth
+}
+#app {
+    background: linear-gradient(to bottom, var(--clr-violet-indigo), var(--clr-eggplant));
+    background-size: cover;
+}
+
+.full-height-width {
+    height: 100%;
+    width: 100%;
+}
+
+.in-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 75%;
+    margin: 20vh 0 20vh 0;
+    border: none;
+    transition: var(--tr-1);
+}
+
+.card-body {
+    padding: 8%;
+}
+
+.text-hover:hover {
+    font-weight: bold;
+    transition: var(--tr-1);
+    cursor: pointer;
+}
