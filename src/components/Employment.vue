@@ -47,10 +47,8 @@ export default {
           tags: ["Accounting", "SAP FICO", "Finance"],
           additionalDetails:"",
           additionalDetailsList: [
-            {id: 1, content: "Configured SAP ERP system inline with the client's requirements"},
-            {id: 2, content: "Perfomed unit testing on the system"},
-            {id: 3, content: "Provided fix for UAT defects and other workstreams"},
-            {id: 4, content: "Familiarized with the SDLC process"}
+            {id: 1, content: "Configured and perform unit testing in SAP ERP system (FICO) inline with the client's requirements"},
+            {id: 2, content: "Familiarized with the SDLC process"}
           ]
         },
         {
