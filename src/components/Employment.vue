@@ -8,7 +8,7 @@
         </span>
         <hr>
       </section>
-      <section v-for="experience in job_experience" :key="experience.id" class="shadow p-3 m-2 rounded">
+      <section v-for="experience in job_experience" :key="experience.id" class="m-2">
         <h6> {{experience.position}} </h6>
 
         <i>
