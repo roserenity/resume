@@ -38,7 +38,7 @@ import Employment from './Employment'
         data(){
             return {
                 name: 'ABIGAIL CALONG',
-                briefInfo: "I'm exposed to web and software development, adaptable and a hardworker. I like kpop, listen to podcasts (Get Real) and sometimes watercolor. This profile website of mine will be using HTML, CSS, Bootstrap, and Javascript with Vue Framework (I took a crashcourse on Vue and I want to use it this in this).",
+                briefInfo: "I'm exposed to web and software development, adaptable and a hardworker. I like kpop, listen to podcast and sometimes watercolor.",
             }
         },
         mounted() {
