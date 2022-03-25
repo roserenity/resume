@@ -1,6 +1,7 @@
 # resume
 
 > A Vue.js project
+> You may view live here: https://app.netlify.com/sites/abigailc-resume
 
 ## Build Setup
 
