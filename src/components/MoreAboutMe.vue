@@ -17,7 +17,7 @@
             :key="certification.id"
             class="col-sm-6 middle d-flex card-group"
           >
-            <div class="card m-3 text-white bg-dark">
+            <div class="card m-3 text-white bg-dark shadow">
               <div class="card-header">
                 <h5>{{ certification.name }}</h5>
                 <h6>{{ certification.issuer }}</h6>
@@ -38,7 +38,7 @@
             :key="project.id"
             class="col-sm-6 middle d-flex card-group"
           >
-            <div class="card m-3 text-white bg-dark">
+            <div class="card m-3 text-white bg-dark shadow rounded">
               <img
                 class="card-img-top"
                 :src="
