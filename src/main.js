@@ -1,58 +1,56 @@
-import Vue from 'vue'
+import {createApp} from 'vue'
 import App from './App'
-import VueRouter from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import MainProfile from './components/MainProfile'
 import MoreAboutMe from './components/MoreAboutMe'
+import "./assets/global-styles.css"
 
-Vue.use(VueRouter);
-const router = new VueRouter({
-  routes : [
+const routes = [
     {
       path: '/', component: MainProfile
     },
     {
       path: '/Abigail-Calong',
       component: MainProfile,
-      props: (route) => ({
+      props: {
         goto: "MainProfile"
-      })
+      }
     },
     {
       path: '/Employment', 
       component: MainProfile,
-      props: (route) => ({
+      props: {
         goto: "Employment"
-      })
+      }
     },
     {
       path: '/Education', 
       component: MainProfile,
-      props: (route) => ({
+      props: {
         goto: "Education"
-      })
+      }
     },
     {
       path: '/MoreAboutMe', 
       component: MoreAboutMe,
-      props: (route) => ({
+      props: {
         goto: "MoreAboutMe"
-      })
+      }
     },
     {
       path: '/Contact', 
       component: MoreAboutMe,
-      props: (route) => ({
+      props: {
         goto: "Contact"
-      })
+      }
     }
   ]
-})
 
-Vue.config.productionTip = false
+const router = createRouter({ 
+    history: createWebHashHistory(),
+    routes: routes})
 
-new Vue({
-  el: '#app',
-  router,
-  components: {App},
-  template: '<App/>'
-})
+const app = createApp(App)
+
+app.use(router)
+app.mount('#app')
