@@ -102,7 +102,7 @@ export default {
         {
           id: 1,
           name: "Python (Basic)",
-          issuer: "HackkerRank",
+          issuer: "HackerRank",
           credentialURL: "https://www.hackerrank.com/certificates/d7e93f0c2988",
         },
         {
@@ -115,8 +115,9 @@ export default {
           id: 3,
           name: "JavaScript Algorithms and Data Structures",
           issuer: "freeCodeCamp.org",
-          credentialURL: "https://freecodecamp.org/certification/Abigail_C/javascript-algorithms-and-data-structures",
-        }
+          credentialURL:
+            "https://freecodecamp.org/certification/Abigail_C/javascript-algorithms-and-data-structures",
+        },
       ],
       projectList: [
         {
