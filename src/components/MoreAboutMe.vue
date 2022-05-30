@@ -111,6 +111,12 @@ export default {
           issuer: "HackerRank",
           credentialURL: "https://www.hackerrank.com/certificates/f174bec0d889",
         },
+        {
+          id: 3,
+          name: "JavaScript Algorithms and Data Structures",
+          issuer: "freeCodeCamp.org",
+          credentialURL: "https://freecodecamp.org/certification/Abigail_C/javascript-algorithms-and-data-structures",
+        }
       ],
       projectList: [
         {
