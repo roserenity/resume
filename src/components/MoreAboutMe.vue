@@ -112,6 +112,7 @@ export default {
           credentialURL: "https://www.hackerrank.com/certificates/f174bec0d889",
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
         {
           id: 3,
           name: "JavaScript Algorithms and Data Structures",
@@ -119,6 +120,8 @@ export default {
           credentialURL:
             "https://freecodecamp.org/certification/Abigail_C/javascript-algorithms-and-data-structures",
         },
+=======
+>>>>>>> parent of 1fa9904 (added new certification)
 =======
 >>>>>>> parent of 1fa9904 (added new certification)
       ],
