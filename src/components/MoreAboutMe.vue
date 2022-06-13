@@ -113,7 +113,7 @@ export default {
         },
         {
           id: 3,
-          name: "JavaScript Algorithms and Data Structures",
+          name: "JavaScript Algorithms and Data Strpuctures",
           issuer: "freeCodeCamp.org",
           credentialURL:
             "https://freecodecamp.org/certification/Abigail_C/javascript-algorithms-and-data-structures",
