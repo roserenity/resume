@@ -15,9 +15,9 @@
           <section
             v-for="certification in certificationList"
             :key="certification.id"
-            class="col-sm-6 middle d-flex card-group"
+            class="col-sm-6 middle d-flex flex-wrap align-items-center justify-content-evenly"
           >
-            <div class="card m-3 text-white bg-dark shadow">
+            <div class="card m-3 text-white bg-dark shadow w-100">
               <div class="card-header">
                 <h5>{{ certification.name }}</h5>
                 <h6>{{ certification.issuer }}</h6>
@@ -117,6 +117,13 @@ export default {
           issuer: "freeCodeCamp.org",
           credentialURL:
             "https://freecodecamp.org/certification/Abigail_C/javascript-algorithms-and-data-structures",
+        },
+        {
+          id: 4,
+          name: "Front End Development Libraries",
+          issuer: "freeCodeCamp.org",
+          credentialURL:
+            "https://freecodecamp.org/certification/Abigail_C/front-end-development-libraries",
         },
       ],
       projectList: [
