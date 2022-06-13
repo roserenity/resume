@@ -15,9 +15,9 @@
           <section
             v-for="certification in certificationList"
             :key="certification.id"
-            class="col-sm-6 middle d-flex flex-wrap align-items-center justify-content-evenly"
+            class="col-sm-6 middle d-flex card-group"
           >
-            <div class="card m-3 text-white bg-dark shadow w-100">
+            <div class="card m-3 text-white bg-dark shadow">
               <div class="card-header">
                 <h5>{{ certification.name }}</h5>
                 <h6>{{ certification.issuer }}</h6>
@@ -111,6 +111,7 @@ export default {
           issuer: "HackerRank",
           credentialURL: "https://www.hackerrank.com/certificates/f174bec0d889",
         },
+<<<<<<< HEAD
         {
           id: 3,
           name: "JavaScript Algorithms and Data Structures",
@@ -118,13 +119,8 @@ export default {
           credentialURL:
             "https://freecodecamp.org/certification/Abigail_C/javascript-algorithms-and-data-structures",
         },
-        {
-          id: 4,
-          name: "Front End Development Libraries",
-          issuer: "freeCodeCamp.org",
-          credentialURL:
-            "https://freecodecamp.org/certification/Abigail_C/front-end-development-libraries",
-        },
+=======
+>>>>>>> parent of 1fa9904 (added new certification)
       ],
       projectList: [
         {
