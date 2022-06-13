@@ -118,6 +118,13 @@ export default {
           credentialURL:
             "https://freecodecamp.org/certification/Abigail_C/javascript-algorithms-and-data-structures",
         },
+        {
+          id: 4,
+          name: "Front End Development Libraries",
+          issuer: "freeCodeCamp.org",
+          credentialURL:
+            "https://www.freecodecamp.org/certification/Abigail_C/front-end-development-libraries",
+        },
       ],
       projectList: [
         {
